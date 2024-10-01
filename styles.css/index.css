@@ -1,0 +1,16 @@
+body {
+    background-color: blueviolet;
+}
+
+#encabezado {
+    background-color: crimson;
+}
+
+.list.item {
+    font-size: 50px;
+}
+#H1-Necho {
+    background-color: aqua;
+    border: 1px dashed crimson;
+    padding: 30px 40px 100px 100px;
+}
