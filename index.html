@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css/index.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="./assets/styles.css/index.css">
+    
     <title>Document</title>
 </head>
 <body>
     <h1>Hola Mundo Henry...!</h1>
     <header>
-        <span> T </span>
-        <span> Trafalgar</span>
-        <nav>
-            <ul>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Find a doctor </a></li>
-                <li><a href="#"> Apps </a></li>
-                <li><a href="#"> Testimonials </a></li>
-                <li><a href="#"> About us </a></li>
-            </ul>
-        </nav>
+        <div>
+            <span id="logo-T" class="font-Mulish"> T </span>
+            <span id="logo-Trafalgar"  class="font-Mulish"> Trafalgar</span>    
+        </div>
+        <div id="nav-centrado">
+            <nav>
+                <ul>
+                    <li><a href="#" class="font-Mulish"> Home </a></li>
+                    <li><a href="#" class="font-Mulish"> Find a doctor </a></li>
+                    <li><a href="#" class="font-Mulish"> Apps </a></li>
+                    <li><a href="#" class="font-Mulish"> Testimonials </a></li>
+                    <li><a href="#" class="font-Mulish"> About us </a></li>
+                </ul>
+            </nav>
+        </div>
+       
     </header>
     <main>
-        <section>
-            <article>
-                <h1>Virtual Healthcare for you</h1>
-                <p>Trafalgar provides progresive, and affordable healthcare, accesible on mobile and everyone</p>
-                <button>Consult today</button>
+        <section id="seccion-main">
+            <article class="contenedor-main" id="articulo-virtual">
+                <h1 class="font-Mulish">Virtual Healthcare for you</h1>
+                <p class="font-Mulish">Trafalgar provides progresive, and affordable healthcare, accesible on mobile and everyone</p>
+                <button class="font-Mulish">Consult today</button>
             </article>
-            <article>
-                <img src="./assets/img/trafalgar-header illustration 1.png" alt="trafalgar-header illustration">
+            <article class="contenedor-main">
+                <img src="./assets/img/trafalgar-header illustration 1.png" alt="trafalgar-header illustration" id="imagen-virtual">
             </article>
         </section>
         <h1 id="H1-Necho">Hola Mundo Necho...!</h1>
@@ -38,5 +49,11 @@
     <footer>
 
     </footer>
+    <!-- <div id="Contenedor">
+        <div class="Caja">CAJA 1</div>
+        <div class="Caja">CAJA 2</div>
+        <div class="Caja">CAJA 3</div>
+    </div> -->
+
 </body>
 </html>
